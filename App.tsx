@@ -42,7 +42,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
         ]}>
         {title}
       </Text>
-      <Text
+      {/* <Text
         style={[
           styles.sectionDescription,
           {
@@ -50,7 +50,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
           },
         ]}>
         {children}
-      </Text>
+      </Text> */}
     </View>
   );
 }
